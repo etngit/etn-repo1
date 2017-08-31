@@ -15,6 +15,14 @@
 			        <url>http://192.168.31.138:8080/manager/text</url>
 			    </configuration>
 			</plugin>	
+			
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <webXml>WebContent\WEB-INF\web.xml</webXml>
+                </configuration>
+            </plugin>
 		</plugins>
 	</build>
 </project>
